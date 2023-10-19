@@ -1,5 +1,5 @@
 .colorFondoGris{
-    background-color:$color-terciario;
+    background-color:map-get($mapa-colores,color-terciario);
 }
 .imagenNosotros{
     width: 100%;
@@ -7,10 +7,13 @@
     padding: 20px;
 }
 .imagenLaRaza{
+    @extend .imagenNosotros;
+}
+/*.imagenLaRaza{
     width: 100%;
     display: inline-block;
     padding: 20px;
-}
+}*/
 .contenedorIm{
     display: flex;
     flex-wrap: wrap;

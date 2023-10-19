@@ -25,18 +25,17 @@
   background-color: rgb(71, 71, 71);
 }
 
-.imagenNosotros {
+.imagenNosotros, .imagenLaRaza {
   width: 100%;
   display: inline-block;
   padding: 20px;
 }
 
-.imagenLaRaza {
-  width: 100%;
-  display: inline-block;
-  padding: 20px;
-}
-
+/*.imagenLaRaza{
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+}*/
 .contenedorIm {
   display: flex;
   flex-wrap: wrap;

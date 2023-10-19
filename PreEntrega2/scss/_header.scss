@@ -1,14 +1,14 @@
 .colorFondo{
-    background-color: $color-primario;
+    background-color: map-get($mapa-colores,color-primario);
 }
 .colorFuente{
-    color: $color-secundario;
+    color: map-get($mapa-colores,color-secundario);
 }
 .estilosAncla{
     list-style: initial;
     list-style: none;
     & :hover{
-        background-color:$color-terciario;
+        background-color: map-get($mapa-colores,color-terciario);
         border-radius: 15%;
     }
 }
