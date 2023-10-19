@@ -1,52 +1,62 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.colorFondo{
-    background-color: black;
+
+.colorFondo {
+  background-color: black;
 }
-.colorFuente{
-    color: white;
+
+.colorFuente {
+  color: white;
 }
-.estilosAncla{
-    list-style: initial;
-    list-style: none;
-    & :hover{
-        background-color: rgba(128, 128, 128, 0.514);
-        border-radius: 15%;
-    }
+
+.estilosAncla {
+  list-style: initial;
+  list-style: none;
 }
-.colorFondoGris{
-    background-color:rgb(71, 71, 71)
+.estilosAncla :hover {
+  background-color: rgb(71, 71, 71);
+  border-radius: 15%;
 }
-.imagenNosotros{
-    width: 100%;
-    display: inline-block;
-    padding: 20px;
+
+.colorFondoGris {
+  background-color: rgb(71, 71, 71);
 }
-.imagenLaRaza{
-    width: 100%;
-    display: inline-block;
-    padding: 20px;
+
+.imagenNosotros {
+  width: 100%;
+  display: inline-block;
+  padding: 20px;
 }
-.contenedorIm{
-    display: flex;
-    flex-wrap: wrap;
-    .imagenes{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        object-fit: cover;
-        padding: 10px;
-    }
+
+.imagenLaRaza {
+  width: 100%;
+  display: inline-block;
+  padding: 20px;
 }
-.imagenContacto{
-    background-image: url("../assets/img/CONTACTO.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+
+.contenedorIm {
+  display: flex;
+  flex-wrap: wrap;
 }
+.contenedorIm .imagenes {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.imagenContacto {
+  background-image: url("../assets/img/CONTACTO.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=estilos.css.map */

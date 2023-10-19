@@ -1,0 +1,33 @@
+.colorFondoGris{
+    background-color:$color-terciario;
+}
+.imagenNosotros{
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+}
+.imagenLaRaza{
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+}
+.contenedorIm{
+    display: flex;
+    flex-wrap: wrap;
+    .imagenes{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: cover;
+        padding: 10px;
+    }
+}
+.imagenContacto{
+    background-image: url("../assets/img/CONTACTO.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
